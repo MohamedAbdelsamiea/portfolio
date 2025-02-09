@@ -34,6 +34,16 @@
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
+        <style>.skill-tags {
+    margin-top: 10px;
+}
+.badge {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+}
+</style>
     </head>
     <!-- END HEAD -->
 
@@ -129,14 +139,14 @@
                         </div>
 
                         <h2>My Skills</h2>
-                        <ul class="skill-list">
-                            <li><i class="fas fa-code"></i> C# - Advanced</li>
-                            <li><i class="fab fa-microsoft"></i> .NET Framework - Expert</li>
-                            <li><i class="fas fa-database"></i> SQL - Intermediate</li>
-                            <li><i class="fas fa-html5"></i> HTML - Intermediate</li>
-                            <li><i class="fas fa-css3-alt"></i> CSS - Intermediate</li>
-                            <li><i class="fab fa-js"></i> JavaScript - Intermediate</li>
-                        </ul>
+                        <div class="skill-tags">
+                            <span class="badge bg-primary">C#</span>
+                            <span class="badge bg-success">.NET Framework</span>
+                            <span class="badge bg-warning">SQL</span>
+                            <span class="badge bg-danger">HTML</span>
+                            <span class="badge bg-info">CSS</span>
+                            <span class="badge bg-dark">JavaScript</span>
+                        </div>
                     </div>
                 </div>
                 <!--// end row -->
@@ -145,153 +155,120 @@
         <!-- End About -->
 
         <!-- Experience -->
-        <div id="experience">
-            <div class="bg-color-sky-light" data-auto-height="true">
-                <div class="container content-lg">
-                    <div class="row row-space-2 margin-b-4">
-                        <div class="col-md-3 col-sm-6 md-margin-b-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-mustache"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Illustrator</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
+<div id="experience">
+    <div class="bg-color-sky-light" data-auto-height="true">
+        <div class="container content-lg">
+            <div class="row row-space-2 margin-b-4">
+                <div class="col-md-3 col-sm-6 md-margin-b-4">
+                    <div class="service" data-height="height">
+                        <div class="service-element">
+                            <i class="service-icon fas fa-code"></i>
                         </div>
-                        <div class="col-md-3 col-sm-6 md-margin-b-4">
-                            <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
-                                <div class="service-element">
-                                    <i class="service-icon color-white icon-screen-tablet"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3 class="color-white">Graphic Design</h3>
-                                    <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
+                        <div class="service-info">
+                            <h3>.NET Development</h3>
+                            <p class="margin-b-5">Building scalable and efficient applications using C# and .NET technologies.</p>
                         </div>
-                        <div class="col-md-3 col-sm-6 sm-margin-b-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-chemistry"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Photoshop</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-badge"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Sketch</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
+                        <a href="#" class="content-wrapper-link"></a>    
                     </div>
-                    <!--// end row -->
+                </div>
+                <div class="col-md-3 col-sm-6 md-margin-b-4">
+                    <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                        <div class="service-element">
+                            <i class="service-icon color-white fas fa-database"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3 class="color-white">Database Management</h3>
+                            <p class="color-white margin-b-5">Experience with SQL databases like MySQL, PostgreSQL, and SQLite for efficient data handling.</p>
+                        </div>
+                        <a href="#" class="content-wrapper-link"></a>    
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 sm-margin-b-4">
+                    <div class="service" data-height="height">
+                        <div class="service-element">
+                            <i class="service-icon fas fa-server"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Backend Development</h3>
+                            <p class="margin-b-5">Developing RESTful APIs and backend solutions using Flask and .NET Core.</p>
+                        </div>
+                        <a href="#" class="content-wrapper-link"></a>    
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service" data-height="height">
+                        <div class="service-element">
+                            <i class="service-icon fas fa-cloud"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Cloud & Deployment</h3>
+                            <p class="margin-b-5">Deploying and managing applications on cloud platforms like Azure and AWS.</p>
+                        </div>
+                        <a href="#" class="content-wrapper-link"></a>    
+                    </div>
                 </div>
             </div>
+            <!--// end row -->
         </div>
-        <!-- End Experience -->
+    </div>
+</div>
+<!-- End Experience -->
 
-        <!-- Work -->
-        <div id="work">
-            <div class="container content-lg">
-                <div class="row margin-b-40">
-                    <div class="col-sm-6">
-                        <h2>Latest Products</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                    </div>
-                </div>
-                <!--// end row -->
-
-                <div class="row">
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
-                            </div>
-                        </div>
-                        <h4><a href="#">Triangle Roof</a> <span class="text-uppercase margin-l-20">Management</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
-
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
-                            </div>
-                        </div>
-                        <h4><a href="#">Curved Corners</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
-
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image">
-                            </div>
-                        </div>
-                        <h4><a href="#">Bird On Green</a> <span class="text-uppercase margin-l-20">Design</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
-                </div>
-                <!--// end row -->
+        <!-- Projects -->
+<div id="projects">
+    <div class="container content-lg">
+        <div class="row margin-b-40">
+            <div class="col-sm-6">
+                <h2>My Projects</h2>
+                <p>Here are some of the projects I've worked on, ranging from AI-powered applications to full-stack web solutions.</p>
             </div>
         </div>
-        <!-- End Work -->
+        <!--// end row -->
 
-        <!-- Clients -->
-        <div class="bg-color-sky-light">
-            <div class="content-lg container">
-                <!-- Swiper Clients -->
-                <div class="swiper-slider swiper-clients">
-                    <!-- Swiper Wrapper -->
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
-                        </div>
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-sm-4 sm-margin-b-50">
+                <div class="margin-b-20">
+                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                        <img class="img-responsive" src="img/projects/attendance.jpg" alt="Student Attendance App">
                     </div>
-                    <!-- End Swiper Wrapper -->
                 </div>
-                <!-- End Swiper Clients -->
+                <h4><a href="#">Student Attendance App</a></h4>
+                <p>Face recognition-based attendance system using Flask and Flutter with 98% accuracy.</p>
+                <a class="link" href="#">Read More</a>
             </div>
+            <!-- End Project 1 -->
+
+            <!-- Project 2 -->
+            <div class="col-sm-4 sm-margin-b-50">
+                <div class="margin-b-20">
+                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                        <img class="img-responsive" src="img/projects/grocery.jpg" alt="Full-Stack Grocery Store App">
+                    </div>
+                </div>
+                <h4><a href="#">Full-Stack Grocery Store App</a></h4>
+                <p>E-commerce grocery store with authentication, filtering, and automatic discounts.</p>
+                <a class="link" href="#">Read More</a>
+            </div>
+            <!-- End Project 2 -->
+
+            <!-- Project 3 -->
+            <div class="col-sm-4 sm-margin-b-50">
+                <div class="margin-b-20">
+                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                        <img class="img-responsive" src="img/projects/sign-language.jpg" alt="Arabic Sign Language Translator">
+                    </div>
+                </div>
+                <h4><a href="#">Arabic Sign Language Translator</a></h4>
+                <p>Machine learning model translating Arabic sign language with 93% accuracy.</p>
+                <a class="link" href="#">Read More</a>
+            </div>
+            <!-- End Project 3 -->
         </div>
-        <!-- End Clients -->
+        <!--// end row -->
+    </div>
+</div>
+<!-- End Projects -->
 
         <!-- Promo Banner -->
         <div class="promo-banner parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
@@ -303,40 +280,41 @@
         <!-- End Promo Banner -->
             
         <!-- Contact -->
-        <div id="contact">
-            <div class="bg-color-sky-light">
-                <div class="container content-lg">
-                    <div class="row margin-b-40">
-                        <div class="col-sm-6">
-                           <h2>Contact Me</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                        </div>
-                    </div>
-                    <!--// end row -->
-
-                    <div class="row">
-                        <div class="col-md-3 col-xs-6 md-margin-b-30">
-                            <h4>Location</h4>
-                            <a href="#">Brookyln, New York</a>
-                        </div>
-                        <div class="col-md-3 col-xs-6 md-margin-b-30">
-                            <h4>Phone</h4>
-                            <a href="#">+77 234 548 00 00</a>
-                        </div>
-                        <div class="col-md-3 col-xs-6">
-                            <h4>Email</h4>
-                            <a href="mailto:#">alex.teseira@gmail.com</a>
-                        </div>
-                        <div class="col-md-3 col-xs-6">
-                            <h4>Web</h4>
-                            <a href="#">alex.teseira.com</a>
-                        </div>
-                    </div>
-                    <!--// end row -->
+<div id="contact">
+    <div class="bg-color-sky-light">
+        <div class="container content-lg">
+            <div class="row margin-b-40">
+                <div class="col-sm-6">
+                   <h2>Contact Me</h2>
+                    <p>Feel free to reach out for collaborations, job opportunities, or just to connect!</p>
                 </div>
             </div>
+            <!--// end row -->
+
+            <div class="row">
+                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                    <h4>Location</h4>
+                    <a href="#">Alexandria/Cairo, Egypt</a>
+                </div>
+                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                    <h4>Email</h4>
+                    <a href="mailto:mohamed.elshamandy@ejust.edu.eg">mohamed.elshamandy@ejust.edu.eg</a>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <h4>GitHub</h4>
+                    <a href="https://github.com/MohamedAbdelsamiea" target="_blank">github.com/MohamedAbdelsamiea</a>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <h4>LinkedIn</h4>
+                    <a href="https://www.linkedin.com/in/mohamed-abdelsamiea-baisam-elshamandy-398573320/" target="_blank">LinkedIn Profile</a>
+                </div>
+            </div>
+            <!--// end row -->
         </div>
-        <!-- End Contact -->
+    </div>
+</div>
+<!-- End Contact -->
+
         <!--========== END PAGE LAYOUT ==========-->
 
         <!--========== FOOTER ==========-->
